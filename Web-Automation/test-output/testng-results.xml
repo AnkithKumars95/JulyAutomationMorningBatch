@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="65" passed="65">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Cases" duration-ms="18437115" started-at="2021-09-17T09:30:12 IST" finished-at="2021-09-17T14:37:29 IST">
+    <groups>
+    </groups>
+    <test name="user to tasks" duration-ms="18437115" started-at="2021-09-17T09:30:12 IST" finished-at="2021-09-17T14:37:29 IST">
+      <class name="com.sgtesting.testngexamples.TestNGDemo3">
+        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:com.sgtesting.testngexamples.TestNGDemo3@ed9d034]" name="launchBrowser" duration-ms="4819" started-at="2021-09-17T09:31:31 IST" finished-at="2021-09-17T09:31:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.sgtesting.testngexamples.TestNGDemo3@ed9d034]" name="navigate" duration-ms="6345" started-at="2021-09-17T09:31:36 IST" finished-at="2021-09-17T09:31:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngexamples.TestNGDemo3@ed9d034]" name="login" duration-ms="4442" started-at="2021-09-17T09:31:42 IST" data-provider="getLoginData" finished-at="2021-09-17T09:31:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="minimizeFlyoutWindow()[pri:4, instance:com.sgtesting.testngexamples.TestNGDemo3@ed9d034]" name="minimizeFlyoutWindow" duration-ms="2137" started-at="2021-09-17T09:31:47 IST" finished-at="2021-09-17T09:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyoutWindow -->
+        <test-method status="PASS" signature="createCustomer(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.testngexamples.TestNGDemo3@ed9d034]" name="createCustomer" duration-ms="6213" started-at="2021-09-17T09:31:49 IST" data-provider="getCustomerData" finished-at="2021-09-17T09:31:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usercustomer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="deleteCustomerser()[pri:6, instance:com.sgtesting.testngexamples.TestNGDemo3@ed9d034]" name="deleteCustomerser" duration-ms="7013" started-at="2021-09-17T09:31:55 IST" finished-at="2021-09-17T09:32:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerser -->
+        <test-method status="PASS" signature="logout()[pri:7, instance:com.sgtesting.testngexamples.TestNGDemo3@ed9d034]" name="logout" duration-ms="2725" started-at="2021-09-17T09:32:02 IST" finished-at="2021-09-17T09:32:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="close()[pri:8, instance:com.sgtesting.testngexamples.TestNGDemo3@ed9d034]" name="close" duration-ms="382" started-at="2021-09-17T09:32:05 IST" finished-at="2021-09-17T09:32:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.sgtesting.testngexamples.TestNGDemo3 -->
+      <class name="com.sgtesting.testngexamples.TestNGDemo4">
+        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:com.sgtesting.testngexamples.TestNGDemo4@6121c9d6]" name="launchBrowser" duration-ms="4259" started-at="2021-09-17T09:32:05 IST" finished-at="2021-09-17T09:32:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.sgtesting.testngexamples.TestNGDemo4@6121c9d6]" name="navigate" duration-ms="6361" started-at="2021-09-17T09:32:09 IST" finished-at="2021-09-17T09:32:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngexamples.TestNGDemo4@6121c9d6]" name="login" duration-ms="4484" started-at="2021-09-17T09:32:16 IST" data-provider="getLoginData" finished-at="2021-09-17T09:32:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="minimizeFlyoutWindow()[pri:4, instance:com.sgtesting.testngexamples.TestNGDemo4@6121c9d6]" name="minimizeFlyoutWindow" duration-ms="2166" started-at="2021-09-17T09:32:20 IST" finished-at="2021-09-17T09:32:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyoutWindow -->
+        <test-method status="PASS" signature="createCustomer(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.testngexamples.TestNGDemo4@6121c9d6]" name="createCustomer" duration-ms="6101" started-at="2021-09-17T09:32:22 IST" data-provider="getCustomerData" finished-at="2021-09-17T09:32:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usercustomer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="modifyCustomer(java.lang.String)[pri:6, instance:com.sgtesting.testngexamples.TestNGDemo4@6121c9d6]" name="modifyCustomer" duration-ms="13467" started-at="2021-09-17T09:32:29 IST" data-provider="getModifyCustomerData" finished-at="2021-09-17T09:32:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newusername]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCustomer -->
+        <test-method status="PASS" signature="deleteCustomerser()[pri:7, instance:com.sgtesting.testngexamples.TestNGDemo4@6121c9d6]" name="deleteCustomerser" duration-ms="6912" started-at="2021-09-17T09:32:42 IST" finished-at="2021-09-17T09:32:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerser -->
+        <test-method status="PASS" signature="logout()[pri:8, instance:com.sgtesting.testngexamples.TestNGDemo4@6121c9d6]" name="logout" duration-ms="2864" started-at="2021-09-17T09:32:49 IST" finished-at="2021-09-17T09:32:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="close()[pri:9, instance:com.sgtesting.testngexamples.TestNGDemo4@6121c9d6]" name="close" duration-ms="386" started-at="2021-09-17T09:32:52 IST" finished-at="2021-09-17T09:32:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.sgtesting.testngexamples.TestNGDemo4 -->
+      <class name="com.sgtesting.testngexamples.TestNGDemo1">
+        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:com.sgtesting.testngexamples.TestNGDemo1@371a67ec]" name="launchBrowser" duration-ms="5189" started-at="2021-09-17T09:30:12 IST" finished-at="2021-09-17T09:30:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.sgtesting.testngexamples.TestNGDemo1@371a67ec]" name="navigate" duration-ms="6356" started-at="2021-09-17T09:30:17 IST" finished-at="2021-09-17T09:30:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngexamples.TestNGDemo1@371a67ec]" name="login" duration-ms="8850" started-at="2021-09-17T09:30:23 IST" data-provider="getLoginData" finished-at="2021-09-17T09:30:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngexamples.TestNGDemo1@371a67ec]" name="login" duration-ms="8702" started-at="2021-09-17T09:30:32 IST" data-provider="getLoginData" finished-at="2021-09-17T09:30:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngexamples.TestNGDemo1@371a67ec]" name="login" duration-ms="8659" started-at="2021-09-17T09:30:41 IST" data-provider="getLoginData" finished-at="2021-09-17T09:30:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeApplication()[pri:4, instance:com.sgtesting.testngexamples.TestNGDemo1@371a67ec]" name="closeApplication" duration-ms="371" started-at="2021-09-17T09:30:50 IST" finished-at="2021-09-17T09:30:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.testngexamples.TestNGDemo1 -->
+      <class name="com.sgtesting.testngexamples.TestNGDemo2">
+        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:com.sgtesting.testngexamples.TestNGDemo2@4d3167f4]" name="launchBrowser" duration-ms="5487" started-at="2021-09-17T09:30:50 IST" finished-at="2021-09-17T09:30:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.sgtesting.testngexamples.TestNGDemo2@4d3167f4]" name="navigate" duration-ms="6448" started-at="2021-09-17T09:30:56 IST" finished-at="2021-09-17T09:31:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngexamples.TestNGDemo2@4d3167f4]" name="login" duration-ms="4455" started-at="2021-09-17T09:31:02 IST" data-provider="getLoginData" finished-at="2021-09-17T09:31:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="minimizeFlyoutWindow()[pri:4, instance:com.sgtesting.testngexamples.TestNGDemo2@4d3167f4]" name="minimizeFlyoutWindow" duration-ms="2166" started-at="2021-09-17T09:31:06 IST" finished-at="2021-09-17T09:31:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyoutWindow -->
+        <test-method status="PASS" signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.testngexamples.TestNGDemo2@4d3167f4]" name="createUser" duration-ms="7480" started-at="2021-09-17T09:31:09 IST" data-provider="getUserData" finished-at="2021-09-17T09:31:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userfirst]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[userdemolast]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[user@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[User@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="modifyUser()[pri:6, instance:com.sgtesting.testngexamples.TestNGDemo2@4d3167f4]" name="modifyUser" duration-ms="5407" started-at="2021-09-17T09:31:16 IST" finished-at="2021-09-17T09:31:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyUser -->
+        <test-method status="PASS" signature="deleteUser()[pri:7, instance:com.sgtesting.testngexamples.TestNGDemo2@4d3167f4]" name="deleteUser" duration-ms="5844" started-at="2021-09-17T09:31:21 IST" finished-at="2021-09-17T09:31:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="logout()[pri:8, instance:com.sgtesting.testngexamples.TestNGDemo2@4d3167f4]" name="logout" duration-ms="3460" started-at="2021-09-17T09:31:27 IST" finished-at="2021-09-17T09:31:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="close()[pri:9, instance:com.sgtesting.testngexamples.TestNGDemo2@4d3167f4]" name="close" duration-ms="317" started-at="2021-09-17T09:31:31 IST" finished-at="2021-09-17T09:31:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.sgtesting.testngexamples.TestNGDemo2 -->
+      <class name="com.sgtesting.testngexamples.TestNGDemo7">
+        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:com.sgtesting.testngexamples.TestNGDemo7@eafc191]" name="launchBrowser" duration-ms="21324" started-at="2021-09-17T14:36:27 IST" finished-at="2021-09-17T14:36:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.sgtesting.testngexamples.TestNGDemo7@eafc191]" name="navigate" duration-ms="17510" started-at="2021-09-17T14:36:49 IST" finished-at="2021-09-17T14:37:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngexamples.TestNGDemo7@eafc191]" name="login" duration-ms="4508" started-at="2021-09-17T14:37:06 IST" data-provider="getLoginData" finished-at="2021-09-17T14:37:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="minimizeFlyoutWindow()[pri:4, instance:com.sgtesting.testngexamples.TestNGDemo7@eafc191]" name="minimizeFlyoutWindow" duration-ms="2790" started-at="2021-09-17T14:37:11 IST" finished-at="2021-09-17T14:37:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyoutWindow -->
+        <test-method status="PASS" signature="createCustomer(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.testngexamples.TestNGDemo7@eafc191]" name="createCustomer" duration-ms="1182" started-at="2021-09-17T14:37:14 IST" data-provider="getCustomerData" finished-at="2021-09-17T14:37:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usercustomer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="createProject(java.lang.String,java.lang.String)[pri:6, instance:com.sgtesting.testngexamples.TestNGDemo7@eafc191]" name="createProject" duration-ms="55" started-at="2021-09-17T14:37:15 IST" data-provider="getProjectData" finished-at="2021-09-17T14:37:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Educational website]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[online training website]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method status="PASS" signature="createTask(java.lang.String)[pri:7, instance:com.sgtesting.testngexamples.TestNGDemo7@eafc191]" name="createTask" duration-ms="46" started-at="2021-09-17T14:37:15 IST" data-provider="getTaskData" finished-at="2021-09-17T14:37:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GUI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method status="PASS" signature="deleteTask()[pri:8, instance:com.sgtesting.testngexamples.TestNGDemo7@eafc191]" name="deleteTask" duration-ms="45" started-at="2021-09-17T14:37:15 IST" finished-at="2021-09-17T14:37:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTask -->
+        <test-method status="PASS" signature="deleteProject()[pri:9, instance:com.sgtesting.testngexamples.TestNGDemo7@eafc191]" name="deleteProject" duration-ms="88" started-at="2021-09-17T14:37:15 IST" finished-at="2021-09-17T14:37:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method status="PASS" signature="deleteCustomerser()[pri:10, instance:com.sgtesting.testngexamples.TestNGDemo7@eafc191]" name="deleteCustomerser" duration-ms="48" started-at="2021-09-17T14:37:15 IST" finished-at="2021-09-17T14:37:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerser -->
+        <test-method status="PASS" signature="logout()[pri:11, instance:com.sgtesting.testngexamples.TestNGDemo7@eafc191]" name="logout" duration-ms="1183" started-at="2021-09-17T14:37:15 IST" finished-at="2021-09-17T14:37:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="close()[pri:12, instance:com.sgtesting.testngexamples.TestNGDemo7@eafc191]" name="close" duration-ms="12706" started-at="2021-09-17T14:37:16 IST" finished-at="2021-09-17T14:37:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.sgtesting.testngexamples.TestNGDemo7 -->
+      <class name="com.sgtesting.testngexamples.TestNGDemo5">
+        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:com.sgtesting.testngexamples.TestNGDemo5@87f383f]" name="launchBrowser" duration-ms="4823" started-at="2021-09-17T09:32:52 IST" finished-at="2021-09-17T09:32:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.sgtesting.testngexamples.TestNGDemo5@87f383f]" name="navigate" duration-ms="6403" started-at="2021-09-17T09:32:57 IST" finished-at="2021-09-17T09:33:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngexamples.TestNGDemo5@87f383f]" name="login" duration-ms="4492" started-at="2021-09-17T09:33:03 IST" data-provider="getLoginData" finished-at="2021-09-17T09:33:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="minimizeFlyoutWindow()[pri:4, instance:com.sgtesting.testngexamples.TestNGDemo5@87f383f]" name="minimizeFlyoutWindow" duration-ms="2156" started-at="2021-09-17T09:33:08 IST" finished-at="2021-09-17T09:33:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyoutWindow -->
+        <test-method status="PASS" signature="createCustomer(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.testngexamples.TestNGDemo5@87f383f]" name="createCustomer" duration-ms="5727" started-at="2021-09-17T09:33:10 IST" data-provider="getCustomerData" finished-at="2021-09-17T09:33:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usercustomer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="createProject(java.lang.String,java.lang.String)[pri:6, instance:com.sgtesting.testngexamples.TestNGDemo5@87f383f]" name="createProject" duration-ms="13345" started-at="2021-09-17T09:33:16 IST" data-provider="getProjectData" finished-at="2021-09-17T09:33:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Educational website]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[online training website]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method status="PASS" signature="deleteProject()[pri:7, instance:com.sgtesting.testngexamples.TestNGDemo5@87f383f]" name="deleteProject" duration-ms="9169" started-at="2021-09-17T09:33:29 IST" finished-at="2021-09-17T09:33:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method status="PASS" signature="deleteCustomerser()[pri:8, instance:com.sgtesting.testngexamples.TestNGDemo5@87f383f]" name="deleteCustomerser" duration-ms="6791" started-at="2021-09-17T09:33:38 IST" finished-at="2021-09-17T09:33:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerser -->
+        <test-method status="PASS" signature="logout()[pri:9, instance:com.sgtesting.testngexamples.TestNGDemo5@87f383f]" name="logout" duration-ms="2860" started-at="2021-09-17T09:33:45 IST" finished-at="2021-09-17T09:33:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="close()[pri:10, instance:com.sgtesting.testngexamples.TestNGDemo5@87f383f]" name="close" duration-ms="202" started-at="2021-09-17T09:33:48 IST" finished-at="2021-09-17T09:33:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.sgtesting.testngexamples.TestNGDemo5 -->
+      <class name="com.sgtesting.testngexamples.TestNGDemo6">
+        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:com.sgtesting.testngexamples.TestNGDemo6@4eb7f003]" name="launchBrowser" duration-ms="5046" started-at="2021-09-17T09:33:48 IST" finished-at="2021-09-17T09:33:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.sgtesting.testngexamples.TestNGDemo6@4eb7f003]" name="navigate" duration-ms="6179" started-at="2021-09-17T09:33:53 IST" finished-at="2021-09-17T09:33:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngexamples.TestNGDemo6@4eb7f003]" name="login" duration-ms="4482" started-at="2021-09-17T09:33:59 IST" data-provider="getLoginData" finished-at="2021-09-17T09:34:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="minimizeFlyoutWindow()[pri:4, instance:com.sgtesting.testngexamples.TestNGDemo6@4eb7f003]" name="minimizeFlyoutWindow" duration-ms="2151" started-at="2021-09-17T09:34:04 IST" finished-at="2021-09-17T09:34:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyoutWindow -->
+        <test-method status="PASS" signature="createCustomer(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.testngexamples.TestNGDemo6@4eb7f003]" name="createCustomer" duration-ms="6061" started-at="2021-09-17T09:34:06 IST" data-provider="getCustomerData" finished-at="2021-09-17T09:34:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usercustomer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="createProject(java.lang.String,java.lang.String)[pri:6, instance:com.sgtesting.testngexamples.TestNGDemo6@4eb7f003]" name="createProject" duration-ms="7030" started-at="2021-09-17T09:34:12 IST" data-provider="getProjectData" finished-at="2021-09-17T09:34:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Educational website]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[online training website]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method status="PASS" signature="modifyProject(java.lang.String)[pri:7, instance:com.sgtesting.testngexamples.TestNGDemo6@4eb7f003]" name="modifyProject" duration-ms="44" started-at="2021-09-17T09:34:19 IST" data-provider="getModiProjectData" finished-at="2021-09-17T09:34:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Training Website]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyProject -->
+        <test-method status="PASS" signature="deleteProject()[pri:8, instance:com.sgtesting.testngexamples.TestNGDemo6@4eb7f003]" name="deleteProject" duration-ms="33" started-at="2021-09-17T09:34:19 IST" finished-at="2021-09-17T09:34:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method status="PASS" signature="deleteCustomerser()[pri:9, instance:com.sgtesting.testngexamples.TestNGDemo6@4eb7f003]" name="deleteCustomerser" duration-ms="2131" started-at="2021-09-17T09:34:19 IST" finished-at="2021-09-17T09:34:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerser -->
+        <test-method status="PASS" signature="logout()[pri:10, instance:com.sgtesting.testngexamples.TestNGDemo6@4eb7f003]" name="logout" duration-ms="18109855" started-at="2021-09-17T09:34:21 IST" finished-at="2021-09-17T14:36:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="close()[pri:11, instance:com.sgtesting.testngexamples.TestNGDemo6@4eb7f003]" name="close" duration-ms="16142" started-at="2021-09-17T14:36:11 IST" finished-at="2021-09-17T14:36:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.sgtesting.testngexamples.TestNGDemo6 -->
+    </test> <!-- user to tasks -->
+  </suite> <!-- Test Cases -->
+</testng-results>

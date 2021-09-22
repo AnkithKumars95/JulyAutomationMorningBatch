@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Cases">
+	<test name="user to tasks">
+		<classes>
+		<class name="com.sgtesting.testngexamples.TestNGDemo1"/>
+		<class name="com.sgtesting.testngexamples.TestNGDemo2"/>
+		<class name="com.sgtesting.testngexamples.TestNGDemo3"/>
+		<class name="com.sgtesting.testngexamples.TestNGDemo4"/>
+		<class name="com.sgtesting.testngexamples.TestNGDemo5"/>
+		<class name="com.sgtesting.testngexamples.TestNGDemo6"/>
+		<class name="com.sgtesting.testngexamples.TestNGDemo7"/>
+		</classes>
+	</test>
+</suite>
